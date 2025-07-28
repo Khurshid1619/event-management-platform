@@ -1,0 +1,22 @@
+body {
+    background-color: #f8f9fa;
+  }
+  
+  .card-hover {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .card-hover:hover {
+    transform: scale(1.05);
+  }
+  
+  .btn-gradient {
+    background: linear-gradient(to right, #007bff, #6610f2);
+    color: white;
+    border: none;
+  }
+  
+  .btn-gradient:hover {
+    background: linear-gradient(to right, #6610f2, #007bff);
+  }
+  
